@@ -7,7 +7,29 @@ The code in this toolbox implements the "[Deep Generative Model for Spatial-spec
 
 ## Train
 
-Run `python train.py` to train the DGMSSU.
+#### Step 1: Extract endmember bundles
+
+Run `python extraceEMBundles.py`
+
+#### Step 2: Segment the image into superpixels for DGMGCN and DGMSAN
+
+Run `python SLIC_preprocess.py`
+
+#### Step 3: Train DGMSSU
+
+Run `python main_pytorch_CNN.py` to train the DGMCNN.
+
+Run `python main_pytorch_GCN.py` to train the DGMGCN.
+
+Run `python main_pytorch_SelfAttention.py` to train the DGMSAN.
+
+
+
+## Test
+
+Run `python test.py` to get  visual results.
+
+
 
 
 
@@ -37,4 +59,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program.
 
-## 
+## Contact Information:
+
+If you encounter any bugs while using this code, please do not hesitate to contact us.
+
+Shuaikai Shi [_shuaikai_shi@mail.nwpu.edu.cn](_shuaikai_shi@mail.nwpu.edu.cn) is with the Center of Intelligent Acoustics and Immersive Communications, School of Marine Science and Technology, Northwestern Polytechinical University, Xi’an 710072, China
