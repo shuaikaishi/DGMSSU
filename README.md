@@ -2,7 +2,7 @@
 
 The code in this toolbox implements the "[Deep Generative Model for Spatial-spectral Unmixing with Multiple Endmember Priors](https://ieeexplore.ieee.org/document/9759362)". More specifically, it is detailed as follow.
 
-<img src="./fig/fig1.png" width="60%">
+<\center><img src="./fig/fig1.png" width="60%"><\center>
 <img src="./fig/fig2.png" width="60%">
 ## Train
 
