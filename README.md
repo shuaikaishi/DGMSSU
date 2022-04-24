@@ -1,9 +1,9 @@
 # Deep Generative Model for Spatial-spectral Unmixing with Multiple Endmember Priors (DGMSSU)
 
 The code in this toolbox implements the "[Deep Generative Model for Spatial-spectral Unmixing with Multiple Endmember Priors](https://ieeexplore.ieee.org/document/9759362)". More specifically, it is detailed as follow.
-![](./fig/fig1.png =400x300)
+![](./fig/fig1.png  400x300)
 
-![](./fig/fig2.png)
+![](./fig/fig2.png  400x300)
 
 ## Train
 
