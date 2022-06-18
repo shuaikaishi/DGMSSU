@@ -23,9 +23,12 @@ Run `python main_pytorch_GCN.py` to train the DGMGCN.
 
 Run `python main_pytorch_SelfAttention.py` to train the DGMSAN.
 
+## Result
+  
+The unmixing results will be saved at `./model_torch/DGMSSU/out/`.
 
 
-## Test
+## Visualization
 
 Run `python test.py` to get  visual results.
 
