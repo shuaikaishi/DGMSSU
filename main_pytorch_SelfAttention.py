@@ -263,8 +263,8 @@ if training == True:
                                                                                    float(kl_div)))
             print("Decoder: loss_f={:.4f}".format(float(loss_f1)))
             print(
-                "Discriminator: loss_r={:.4f}, loss_f={:.4f},loss_gp={:.4f}".format(float(loss_r), float(loss_f2),
-                                                                                    float(loss_gp)))
+                "Discriminator: loss_r={:.4f}, loss_f={:.4f}".format(float(loss_r), float(loss_f2)
+                                                                                    ))
             print('*' * 50)
             #################
             # save state
